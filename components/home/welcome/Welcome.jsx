@@ -19,11 +19,11 @@ const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
 	return (
 		<View>
 			<View style={styles.container}>
-				<Text style={styles.userName}>Hello Adrian</Text>
-				<Text style={styles.welcomeMessage}>Find Your Perfect Job</Text>
+				<Text style={styles.userName}>Hello SHIBIL</Text>
+				<Text style={styles.welcomeMessage}>Welcome the this app</Text>
 			</View>
 			<View style={styles.searchContainer}>
-				<View style={styles.searchWrapper}>
+				{/* <View style={styles.searchWrapper}>
 					<TextInput
 						style={styles.searchInput}
 						value={searchTerm}
@@ -32,16 +32,16 @@ const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
 						}}
 						placeholder="What are you looking for?"
 					/>
-				</View>
-				<TouchableOpacity style={styles.searchBtn} onPress={handleClick}>
+				</View> */}
+				{/* <TouchableOpacity style={styles.searchBtn} onPress={handleClick}>
 					<Image
 						source={icons.search}
 						resizeMode="contain"
 						style={styles.searchBtnImage}
 					/>
-				</TouchableOpacity>
+				</TouchableOpacity> */}
 			</View>
-			<View style={styles.tabsContainer}>
+			{/* <View style={styles.tabsContainer}>
 				<FlatList
 					data={jobTypes}
 					renderItem={({ item }) => (
@@ -59,7 +59,7 @@ const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
 					contentContainerStyle={{ columnGap: SIZES.small }}
 					horizontal
 				/>
-			</View>
+			</View> */}
 		</View>
 	);
 };
